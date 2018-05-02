@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.pf {
+    border-radius: 50%;
+    height: 300px;
+    position: relative;
+    margin: 0;
+}
+
+.navigation {
+    flex: 1;
+    margin: 50px 0 40px;
+}
+
+.navigation__link {
+    position: relative;
+    opacity: 1;
+    transition: opacity 300ms ease-out;
+    transition-delay: 300ms;
+}
+
+.navigation__link--active {
+    color: #333333;
+}
+
+.navigation__link--active::after {
+    margin-left: 10px;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.right {
+    flex: 1;
+}

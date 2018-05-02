@@ -1,0 +1,25 @@
+/*
+ * Page Transition
+ */
+.cross-fade-leave {
+  position: absolute;
+  opacity: 1;
+  transform: translateX(0);
+}
+.cross-fade-leave.cross-fade-leave-active {
+  opacity: 0;
+  transform: translateX(-150px);
+  transition: all 350ms ease-in;
+}
+ 
+.cross-fade-enter {
+  position: absolute;
+  transform: translateX(150px);
+  opacity: 0;
+}
+.cross-fade-enter.cross-fade-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 350ms ease-out;
+  transition-delay: 350ms;
+}
