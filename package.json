@@ -2,7 +2,7 @@
   "name": "raychung-react",
   "version": "1.0.0",
   "main": "webpack.config.js",
-  "homepage": "https://raychung02.github.io/personal/",
+  "homepage": "http://raychung02.github.io/personal/",
   "devDependencies": {
     "css-loader": "^0.28.11",
     "gh-pages": "^1.1.0",
