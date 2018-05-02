@@ -89,19 +89,19 @@ const Portfolio = () => {
         <div className="row">
           <div className="col-sm-6 col-md-3">
             <img className="preview" src={er2015cover} alt="En Route 2015 Program" />
-            <h4><a href="../assets/programs/er2015.pdf" target="_blank">En Route 2015</a></h4>
+            <h4><a href="https://drive.google.com/file/d/1KU8bcv1EXs9RUj24wAZtdo1sV4X-aSJi" target="_blank">En Route 2015</a></h4>
           </div>
           <div className="col-sm-6 col-md-3">
             <img className="preview" src={er2016cover} alt="En Route 2016 Program" />
-            <h4><a href="../assets/programs/er2016.pdf" target="_blank">En Route 2016</a></h4>
+            <h4><a href="https://drive.google.com/open?id=1EgrJMltWx5Poca-OgEV4pngmWCoASFJy" target="_blank">En Route 2016</a></h4>
           </div>
           <div className="col-sm-6 col-md-3">
             <img className="preview" src={er2017cover} alt="En Route 2017 Program" />
-            <h4><a href="../assets/programs/er2017.pdf" target="_blank">En Route 2017</a></h4>
+            <h4><a href="https://drive.google.com/open?id=1pP3saYL1uZEeSMZDwAdJuqzjSD0OAOmx" target="_blank">En Route 2017</a></h4>
           </div>
           <div className="col-sm-6 col-md-3">
             <img className="preview" src={pcccover} alt="PCC Program" />
-            <h4><a href="../assets/programs/pcc.pdf.pdf" target="_blank">PCC 2014</a></h4>
+            <h4><a href="https://drive.google.com/open?id=1IgDOQuW6LAEgI2hgjaiQ0RvtbCRPrNGz" target="_blank">PCC 2014</a></h4>
           </div>
         </div>
       </section>
